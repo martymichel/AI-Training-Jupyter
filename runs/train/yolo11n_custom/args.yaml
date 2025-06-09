@@ -1,10 +1,10 @@
 task: detect
 mode: train
 model: yolo11n.pt
-data: C:\Users\Michel\Pictures\Test2_img_split\Test2_img\dataset.yaml
+data: P:\PY\AI Training Jupyter\Project_template\dataset\3_Splitted\dataset.yaml
 epochs: 100
 time: null
-patience: 50
+patience: 25
 batch: 32
 imgsz: 640
 save: true

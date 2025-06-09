@@ -1,0 +1,21 @@
+{
+  "categories": [
+    {
+      "id": 0,
+      "name": "Fleck"
+    },
+    {
+      "id": 1,
+      "name": "Kratzer"
+    },
+    {
+      "id": 2,
+      "name": "Vial"
+    }
+  ],
+  "info": {
+    "year": 2025,
+    "version": "1.0",
+    "contributor": "Label Studio"
+  }
+}
