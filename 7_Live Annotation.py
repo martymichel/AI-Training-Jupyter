@@ -1,12 +1,14 @@
 import os
+import pandas as pd
+import matplotlib.pyplot as plt
 import glob
 import time
 import cv2
 from ultralytics import YOLO
 
 # ========================== Einstellungen ==========================
-MODEL_PATH = r"P:\PY\AI Training Jupyter\runs\train\yolo11n_custom\weights\best.pt"  # Modellpfad
-IMG_DIR = r"C:\Users\Michel\Pictures\Test2_img_split\Test2_img\test\images"  # Ordner mit Bildern
+MODEL_PATH = r"G:\Everyone\TEMP\465\INSPECTUBE\runs\train\yolo11n_custom\weights\best.pt" # Modellpfad
+IMG_DIR = r"C:\Users\hagmmart\OneDrive - Flex\3_ARBEIT ARBEIT ARBEIT\5.2_AI_Camera tests\23.05.25_M_Innder_B_Dataset_INSPECTUBE\3_Splitted\test"   # Ordner mit Bildern
 IMG_EXTENSIONS = (".jpg", ".jpeg", ".png", ".bmp")  # Bildtypen
 
 # ========== Bilder sammeln =========
